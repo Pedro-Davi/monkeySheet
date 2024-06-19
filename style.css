@@ -100,6 +100,23 @@ body{
     transform: scale(1.1); 
 }
 
+.check-sheet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.check-sheet a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.check-sheet a:hover{
+    text-decoration: underline;
+}
+
 .loading{
     width: 28px;
     animation: spin .8s infinite linear;
